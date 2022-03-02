@@ -16,7 +16,7 @@ def teste_post01(data):
     print(r.json())
 
 def teste_post():
-    data = {'name': 'Maurilio Silva', 'gender': 'Masculino', 'company': 'Sky'}
+    data = {'name': 'Maurilio Silva', 'gender': 'Masculino', 'company': 'Mau'}
     r = requests.post('http://localhost:5000/cliente/',data=data)
     print(r.json())
 
